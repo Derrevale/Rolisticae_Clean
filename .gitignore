@@ -1,0 +1,28 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.sqlite3
+
+# Environnement virtuel
+venv/
+
+# Fichiers IDE et éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node et React
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# OS
+.DS_Store
+Thumbs.db
