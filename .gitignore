@@ -23,6 +23,6 @@ npm-debug.log
 yarn-error.log
 .env
 
-# OS
+# OS - Fichiers système
 .DS_Store
 Thumbs.db
