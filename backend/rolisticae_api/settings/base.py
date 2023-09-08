@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'rolisticae_api.urls'
+ROOT_URLCONF = 'rolisticae_core.urls'
 
 TEMPLATES = [
     {
