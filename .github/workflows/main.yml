@@ -2,7 +2,7 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ Backend_Configuration, Frontend_Configuration, main ]
+    branches: [ Backend_Configuration, Frontend_Configuration, main, Backend_Configuration_BlogModule ]
 
 jobs:
   build:
