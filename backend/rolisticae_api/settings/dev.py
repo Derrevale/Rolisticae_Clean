@@ -17,5 +17,8 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+print("Using dev settings")
+print("BASE_DIR is:", BASE_DIR)
+print("DATABASES is:", DATABASES)   
 
 # Other settings specific to the development environment
