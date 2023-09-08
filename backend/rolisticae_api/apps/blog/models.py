@@ -6,10 +6,10 @@ from ckeditor.fields import RichTextField  # Pour le texte enrichi
 class Categorie(models.Model):
     titre = models.CharField(max_length=100)
     description = models.TextField()
-    slug = models.SlugField(unique=True)
+    slug = models.SlugField(unique=True, blank=True)
 
     def save(self, *args, **kwargs):
-        self.slug = slugify(self.titre)
+        self.slug = slugify(f"{self.titre}-slug")
         super().save(*args, **kwargs)
 
     def __str__(self):
