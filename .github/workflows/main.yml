@@ -33,7 +33,7 @@ jobs:
         node-version: '14.x'
     - name: Install Node.js dependencies
       run: |
-        cd frontend
+        cd frontend/rolisticae_client/
         npm install
     - name: Run React tests
       run: |
