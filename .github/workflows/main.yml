@@ -24,7 +24,7 @@ jobs:
     - name: Run Django tests
       run: |
         cd backend/rolisticae_api/
-       python manage.py test --settings=rolisticae_api.settings.dev
+        python manage.py test --settings=rolisticae_api.settings.dev
 
     # Frontend Setup
     - name: Setup Node.js
